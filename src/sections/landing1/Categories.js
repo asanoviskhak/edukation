@@ -6,7 +6,7 @@ const Categories = () => {
     <>
       {/* <!-- Categories Area -->  */}
       <div
-        className="pt-11 pt-lg-26 pb-lg-16"
+        className="pt-11 pt-lg-26 pb-lg-16 bg-black-2 dark-mode-texts"
         data-aos="fade-left"
         data-aos-duration="800"
         data-aos-delay="500"
@@ -18,7 +18,7 @@ const Categories = () => {
             <div className="col-12 col-lg-6">
               <div className="text-center text-lg-left mb-13 mb-lg-0">
                 <h2 className="font-size-9 font-weight-bold">
-                  Explore by category
+                  Все наши услуги
                 </h2>
               </div>
             </div>
@@ -26,8 +26,8 @@ const Categories = () => {
             <div className="col-12 col-lg-6">
               <div className="text-center text-lg-right">
                 <Link href="/#">
-                  <a className="btn btn-outline-green text-uppercase">
-                    Explore All
+                  <a className="btn btn-outline-white text-uppercase">
+                    Воспользуйся ими 😀
                   </a>
                 </Link>
               </div>
@@ -46,10 +46,10 @@ const Categories = () => {
                   {/* <!-- Category Content --> */}
                   <div className="">
                     <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Business Development
+                      Название Услуги
                     </h5>
                     <p className="font-size-4 font-weight-normal text-gray">
-                      <span>415</span> Vacancy
+                      Описание
                     </p>
                   </div>
                 </a>
@@ -66,10 +66,10 @@ const Categories = () => {
                   {/* <!-- Category Content --> */}
                   <div className="">
                     <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Customer Service
+                      Название Услуги
                     </h5>
                     <p className="font-size-4 font-weight-normal text-gray">
-                      <span>235</span> Vacancy
+                      Описание
                     </p>
                   </div>
                 </a>
@@ -86,10 +86,10 @@ const Categories = () => {
                   {/* <!-- Category Content --> */}
                   <div className="">
                     <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Development
+                      Название Услуги
                     </h5>
                     <p className="font-size-4 font-weight-normal text-gray">
-                      <span>624</span> Vacancy
+                      Описание
                     </p>
                   </div>
                 </a>
@@ -106,10 +106,10 @@ const Categories = () => {
                   {/* <!-- Category Content --> */}
                   <div className="">
                     <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Design
+                      Название Услуги
                     </h5>
                     <p className="font-size-4 font-weight-normal text-gray">
-                      <span>174</span> Vacancy
+                      Описание
                     </p>
                   </div>
                 </a>
@@ -126,10 +126,10 @@ const Categories = () => {
                   {/* <!-- Category Content --> */}
                   <div className="">
                     <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Marketing &amp; Management
+                      Название Услуги
                     </h5>
                     <p className="font-size-4 font-weight-normal text-gray">
-                      <span>268</span> Vacancy
+                      Описание
                     </p>
                   </div>
                 </a>
@@ -146,10 +146,10 @@ const Categories = () => {
                   {/* <!-- Category Content --> */}
                   <div className="">
                     <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Sales &amp; Communication
+                      Название Услуги
                     </h5>
                     <p className="font-size-4 font-weight-normal text-gray">
-                      <span>156</span> Vacancy
+                      Описание
                     </p>
                   </div>
                 </a>
@@ -166,10 +166,10 @@ const Categories = () => {
                   {/* <!-- Category Content --> */}
                   <div className="">
                     <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Project Management
+                      Название Услуги
                     </h5>
                     <p className="font-size-4 font-weight-normal text-gray">
-                      <span>162</span> Vacancy
+                      Описание
                     </p>
                   </div>
                 </a>
@@ -186,10 +186,10 @@ const Categories = () => {
                   {/* <!-- Category Content --> */}
                   <div className="">
                     <h5 className="font-size-5 font-weight-semibold text-black-2 line-height-1">
-                      Human Resource{" "}
+                      Название Услуги
                     </h5>
                     <p className="font-size-4 font-weight-normal text-gray">
-                      <span>84</span> Vacancy
+                      Описание
                     </p>
                   </div>
                 </a>

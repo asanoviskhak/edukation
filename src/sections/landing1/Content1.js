@@ -1,5 +1,5 @@
 import React from "react";
-import imgC from "../../assets/image/l1/jpg/content-1-img1.jpg";
+import imgC from "../../assets/image/l1/jpg/dosbol-content-1.jpg";
 import imgL1 from "../../assets/image/l1/png/smal-logo1.png";
 import imgL2 from "../../assets/image/l1/png/smal-logo2.png";
 import imgL3 from "../../assets/image/l1/png/smal-logo3.png";
@@ -10,7 +10,7 @@ const Content = () => {
   return (
     <>
       {/* <!-- Content Area -->  */}
-      <section className="pt-7 pt-lg-16 pb-2 pb-lg-32">
+      <section className="pt-7 pt-lg-28 pb-2 pb-lg-28">
         <div className="container">
           <div className="row pb-lg-6 justify-content-center">
             <div
@@ -28,12 +28,13 @@ const Content = () => {
                 />
                 {/* <!-- content img end --> */}
                 {/* <!-- abs-content start --> */}
-                <div className="pos-abs-br pt-17 pb-9 pl-8 pr-12  bg-white shadow-2 rounded scale-p7 scale-xs-1 mb-n20 mr-n10 mr-xs-5 mr-sm-0 mb-xs-n10">
-                  {/* <!-- check-mark start --> */}
+                
+                {/* <div className="pos-abs-br pt-17 pb-9 pl-8 pr-12  bg-white shadow-2 rounded scale-p7 scale-xs-1 mb-n20 mr-n10 mr-xs-5 mr-sm-0 mb-xs-n10">
+                  
                   <span className="pos-abs-tl circle-79 bg-green font-size-9 mt-n9 ml-n9 ">
                     <i className="fas fa-check text-white"></i>
                   </span>
-                  {/* <!-- check-mark end --> */}
+                  
                   <p className="text-black-2 text-4 font-weight-bold mb-7">
                     <span className="font-weight-normal">Found</span> 290+ Jobs
                   </p>
@@ -69,8 +70,10 @@ const Content = () => {
                       +14 Giants
                     </p>
                   </div>
-                </div>
+                </div> */}
+                
                 {/* <!-- abs-content end --> */}
+              
               </div>
               {/* <!-- content-1 left-content end --> */}
             </div>
@@ -83,15 +86,15 @@ const Content = () => {
               <div className="pl-lg-10 pl-0 d-flex flex-column justify-content-center h-100 pt-lg-0 pt-15 pr-md-13 pr-xl-15 pr-xxl-25 pr-0 ">
                 {/* <!-- content-1 section-title start --> */}
                 <h2 className="font-size-9 mb-8 pr-xxl-15">
-                  Help you to get the best job that fits you
+                  Даём бесплатные консультации по обучению в Корее
                 </h2>
                 <p className="text-gray font-size-5 mb-10 mb-lg-16">
-                  Leverage agile frameworks to provide a robust synopsis for
-                  high level overviews. Iterative approach
+                Мы - стартап в сфере образования, с офисом в Южной Корее, который основан командой с дальновидными взглядами с 
+                миссией помочь русскоязычным студентам в получении образования за границей и реализовать свой потенциал.
                 </p>
                 {/* <!-- content-1 section-title end --> */}
                 {/* <!-- content-1 list-group start --> */}
-                <ul className="list-unstyled pl-0">
+                {/* <ul className="list-unstyled pl-0">
                   <li className="font-weight-semibold border-0 d-flex mb-7 heading-default-color">
                     <i className="fas fa-check font-size-4 text-green mr-6"></i>
                     Bring to the table win-win survival
@@ -104,7 +107,7 @@ const Content = () => {
                     <i className="fas fa-check font-size-4 text-green mr-6"></i>
                     But I must explain to you how all this
                   </li>
-                </ul>
+                </ul> */}
                 {/* <!-- content-1 list-group end --> */}
               </div>
               {/* <!-- content-1 end --> */}

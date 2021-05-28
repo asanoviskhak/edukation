@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Select } from "../../components/Core";
-import imgH from "../../assets/image/l1/png/hero-image-man.png";
+import imgH from "../../assets/image/l1/png/hero-image-woman.png";
 import imgP from "../../assets/image/patterns/hero-pattern.png";
 
 const defaultCountries = [
@@ -25,59 +25,22 @@ const Hero = () => {
         <div className="container">
           <div className="row position-relative align-items-center">
             <div
-              className="col-xxl-6 col-xl-7 col-lg-8 col-md-12 pt-lg-13 pb-lg-33 pb-xl-34 pb-md-33 pb-10"
+              className="col-xxl-6 col-xl-7 col-lg-8 col-md-12 pt-lg-5 pb-lg-33 pb-xl-34 pb-md-33 pb-10"
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-delay="500"
             >
               <h1 className="font-size-11 mb-12 pr-md-30 pr-lg-0">
-                Find the perfect job that you deserve.
+                Хочешь обучаться в Южной Корее?
               </h1>
-              <div className="">
-                {/* <!-- .search-form --> */}
-                <form action="/" className="search-form shadow-6">
-                  <div className="filter-search-form-1 bg-white rounded-sm shadow-4">
-                    <div className="filter-inputs">
-                      <div className="form-group position-relative">
-                        <input
-                          className="form-control focus-reset pl-13"
-                          type="text"
-                          id="keyword"
-                          placeholder="Job title"
-                        />
-                        <span className="h-100 w-px-50 pos-abs-tl d-flex align-items-center justify-content-center font-size-6">
-                          <i className="icon icon-zoom-2 text-primary font-weight-bold"></i>
-                        </span>
-                      </div>
-                      {/* <!-- .select-city starts --> */}
-                      <div className="form-group position-relative">
-                        <Select
-                          options={defaultCountries}
-                          className="pl-8 h-100 arrow-3 font-size-4 d-flex align-items-center w-100"
-                          border={false}
-                        />
-
-                        <span className="h-100 w-px-50 pos-abs-tl d-flex align-items-center justify-content-center font-size-6">
-                          <i className="icon icon-pin-3 text-primary font-weight-bold"></i>
-                        </span>
-                      </div>
-                      {/* <!-- ./select-city ends --> */}
-                    </div>
-                    {/* <!-- .Hero Button --> */}
-                    <div className="button-block">
-                      <button className="btn btn-primary line-height-reset h-100 btn-submit w-100 text-uppercase">
-                        Search
-                      </button>
-                    </div>
-                    {/* <!-- ./Hero Button --> */}
-                  </div>
-                </form>
-                {/* <!-- ./search-form --> */}
-                <p className="heading-default-color font-size-3 pt-7">
-                  <span className="text-smoke">Search keywords e.g.</span>{" "}
-                  Product Designer
-                </p>
-              </div>
+              <p className="font-size-5">
+                Получи бесплатную консультацию!
+                Забронируй себе место для онлайн встреч
+              </p>
+              <a href="#" className="btn btn-primary h-100 text-uppercase">
+                Забронировать место
+              </a>
+              
             </div>
             {/* <!-- Hero Right Image --> */}
             <div

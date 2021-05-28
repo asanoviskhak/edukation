@@ -16,13 +16,13 @@ const Services = () => {
             <div className="col-12 col-md-8 col-lg-6 col-xxl-5">
               <div className="text-center mb-8 mb-lg-18 px-xl-9 px-xxl-7">
                 <h2 className="font-size-9 mb-6">
-                  Easy steps to
-                  <br className="d-none d-sm-block" /> land your next job
+                  Как это всё
+                  <br className="d-none d-sm-block" /> работает?
                 </h2>
-                <p className="font-size-4 text-default-color px-xs-9 px-md-0">
+                {/* <p className="font-size-4 text-default-color px-xs-9 px-md-0">
                   Creating a beautiful job website is not easy always. To make
                   your life easier, we are introducing Justcamp template.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -40,10 +40,9 @@ const Services = () => {
                   <img src={imgS1} alt="" />
                 </div>
                 <div className="services-content">
-                  <h3 className="font-size-6 mb-7">Register Your Account</h3>
+                  <h3 className="font-size-6 mb-7">Выбери университет</h3>
                   <p className="font-size-4 text-default-color">
-                    Capitalize on low hanging fruit to identify a ballpark value
-                    added activity to beta test. Override the digital.
+                    Назначь встречу с нашим консультантом и получи помощь с документами для поступления на учебу в любимый ВУЗ.
                   </p>
                 </div>
               </div>
@@ -56,10 +55,9 @@ const Services = () => {
                   <img src={imgS2} alt="" />
                 </div>
                 <div className="services-content">
-                  <h3 className="font-size-6 mb-7">Apply for New Jobs</h3>
+                  <h3 className="font-size-6 mb-7">Получи визу</h3>
                   <p className="font-size-4 text-default-color">
-                    Leverage agile frameworks to provide a robust synopsis for
-                    high level overviews. Iterative approaches.
+                    Получи помощь у визового специалиста, который поможет через весь процесс, включая подачу заявления, встречу и собеседование.
                   </p>
                 </div>
               </div>
@@ -72,10 +70,9 @@ const Services = () => {
                   <img src={imgS3} alt="" />
                 </div>
                 <div className="services-content">
-                  <h3 className="font-size-6 mb-7">Get Hired Immediately</h3>
+                  <h3 className="font-size-6 mb-7">Обучайся за рубежом</h3>
                   <p className="font-size-4 text-default-color">
-                    Capitalize on low hanging fruit to identify a ballpark value
-                    added activity to beta test. Override the digital.
+                    Забронируй самолет, путешествуй и следуй своим мечтам за границей, и получай поддержку от нас до окончания учебы!
                   </p>
                 </div>
               </div>
