@@ -1,19 +1,19 @@
 import React from "react";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
-import Sidebar from "../components/Sidebar";
-import { Select } from "../components/Core";
+import PageWrapper from "../src/components/PageWrapper";
+import Sidebar from "../src/components/Sidebar";
+import { Select } from "../src/components/Core";
 
-import imgF1 from "../assets/image/l2/png/featured-job-logo-1.png";
-import imgF2 from "../assets/image/l2/png/featured-job-logo-2.png";
-import imgF3 from "../assets/image/l2/png/featured-job-logo-3.png";
-import imgF4 from "../assets/image/l2/png/featured-job-logo-4.png";
-import imgF5 from "../assets/image/l2/png/featured-job-logo-5.png";
+import imgF1 from "../src/assets/image/l2/png/featured-job-logo-1.png";
+import imgF2 from "../src/assets/image/l2/png/featured-job-logo-2.png";
+import imgF3 from "../src/assets/image/l2/png/featured-job-logo-3.png";
+import imgF4 from "../src/assets/image/l2/png/featured-job-logo-4.png";
+import imgF5 from "../src/assets/image/l2/png/featured-job-logo-5.png";
 
-import imgF from "../assets/image/svg/icon-fire-rounded.svg";
-import iconL from "../assets/image/svg/icon-loaction-pin-black.svg";
-import iconS from "../assets/image/svg/icon-suitecase.svg";
-import iconC from "../assets/image/svg/icon-clock.svg";
+import imgF from "../src/assets/image/svg/icon-fire-rounded.svg";
+import iconL from "../src/assets/image/svg/icon-loaction-pin-black.svg";
+import iconS from "../src/assets/image/svg/icon-suitecase.svg";
+import iconC from "../src/assets/image/svg/icon-clock.svg";
 
 const defaultCountries = [
   { value: "sp", label: "Singapore" },

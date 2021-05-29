@@ -1,5 +1,5 @@
 import React from "react";
-import PageWrapper from "../components/PageWrapper";
+import PageWrapper from "../src/components/PageWrapper";
 
 const Contact = () => {
   return (

@@ -1,14 +1,14 @@
 import React from "react";
 import { Nav, Tab } from "react-bootstrap";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
+import PageWrapper from "../src/components/PageWrapper";
 
-import imgF1 from "../assets/image/l2/png/featured-job-logo-1.png";
-import imgB1 from "../assets/image/l1/png/feature-brand-1.png";
-import imgB2 from "../assets/image/l1/png/feature-brand-4.png";
-import imgB3 from "../assets/image/l1/png/feature-brand-5.png";
-import imgB4 from "../assets/image/l3/png/github-mark.png";
-import imgB5 from "../assets/image/l3/png/universal.png";
+import imgF1 from "../src/assets/image/l2/png/featured-job-logo-1.png";
+import imgB1 from "../src/assets/image/l1/png/feature-brand-1.png";
+import imgB2 from "../src/assets/image/l1/png/feature-brand-4.png";
+import imgB3 from "../src/assets/image/l1/png/feature-brand-5.png";
+import imgB4 from "../src/assets/image/l3/png/github-mark.png";
+import imgB5 from "../src/assets/image/l3/png/universal.png";
 
 const CandidateProfile = () => {
   return (

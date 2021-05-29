@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
-import { Select } from "../components/Core";
-import GlobalContext from "../context/GlobalContext";
+import PageWrapper from "../src/components/PageWrapper";
+import { Select } from "../src/components/Core";
+import GlobalContext from "../src/context/GlobalContext";
 
-import imgP1 from "../assets/image/table-one-profile-image-1.png";
-import imgP2 from "../assets/image/table-one-profile-image-2.png";
-import imgP3 from "../assets/image/table-one-profile-image-3.png";
-import imgP4 from "../assets/image/table-one-profile-image-4.png";
-import imgP5 from "../assets/image/table-one-profile-image-5.png";
+import imgP1 from "../src/assets/image/table-one-profile-image-1.png";
+import imgP2 from "../src/assets/image/table-one-profile-image-2.png";
+import imgP3 from "../src/assets/image/table-one-profile-image-3.png";
+import imgP4 from "../src/assets/image/table-one-profile-image-4.png";
+import imgP5 from "../src/assets/image/table-one-profile-image-5.png";
 
 const defaultJobs = [
   { value: "pd", label: "Product Designer" },

@@ -1,8 +1,8 @@
 import React from "react";
-import PageWrapper from "../components/PageWrapper";
-import { Select } from "../components/Core";
+import PageWrapper from "../src/components/PageWrapper";
+import { Select } from "../src/components/Core";
 
-import SearchTab from "../sections/search/SearchTab";
+import SearchTab from "../src/sections/search/SearchTab";
 
 const defaultCountries = [
   { value: "sp", label: "Singapore" },

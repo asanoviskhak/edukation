@@ -1,15 +1,15 @@
 import React from "react";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
-import Sidebar from "../components/Sidebar";
-import { Select } from "../components/Core";
+import PageWrapper from "../src/components/PageWrapper";
+import Sidebar from "../src/components/Sidebar";
+import { Select } from "../src/components/Core";
 
-import imgB1 from "../assets/image/l1/png/feature-brand-1.png";
-import imgB2 from "../assets/image/l1/png/feature-brand-2.png";
-import imgB3 from "../assets/image/l1/png/feature-brand-3.png";
-import imgB4 from "../assets/image/l1/png/feature-brand-4.png";
-import imgB5 from "../assets/image/l1/png/feature-brand-5.png";
-import imgB6 from "../assets/image/l1/png/feature-brand-6.png";
+import imgB1 from "../src/assets/image/l1/png/feature-brand-1.png";
+import imgB2 from "../src/assets/image/l1/png/feature-brand-2.png";
+import imgB3 from "../src/assets/image/l1/png/feature-brand-3.png";
+import imgB4 from "../src/assets/image/l1/png/feature-brand-4.png";
+import imgB5 from "../src/assets/image/l1/png/feature-brand-5.png";
+import imgB6 from "../src/assets/image/l1/png/feature-brand-6.png";
 
 const defaultCountries = [
   { value: "sp", label: "Singapore" },

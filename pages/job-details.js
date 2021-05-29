@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
+import PageWrapper from "../src/components/PageWrapper";
 
-import imgF1 from "../assets/image/l2/png/featured-job-logo-1.png";
-import iconD from "../assets/image/svg/icon-dolor.svg";
-import iconB from "../assets/image/svg/icon-briefcase.svg";
-import iconL from "../assets/image/svg/icon-location.svg";
+import imgF1 from "../src/assets/image/l2/png/featured-job-logo-1.png";
+import iconD from "../src/assets/image/svg/icon-dolor.svg";
+import iconB from "../src/assets/image/svg/icon-briefcase.svg";
+import iconL from "../src/assets/image/svg/icon-location.svg";
 
 const JobDetails = () => {
   return (

@@ -1,21 +1,21 @@
 import React from "react";
 import { Nav, Tab } from "react-bootstrap";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
-import ProfileSidebar from "../components/ProfileSidebar";
+import PageWrapper from "../src/components/PageWrapper";
+import ProfileSidebar from "../src/components/ProfileSidebar";
 
-import imgB1 from "../assets/image/l2/png/featured-job-logo-1.png";
-import imgB2 from "../assets/image/l1/png/feature-brand-1.png";
-import imgB3 from "../assets/image/svg/harvard.svg";
-import imgB4 from "../assets/image/svg/mit.svg";
+import imgB1 from "../src/assets/image/l2/png/featured-job-logo-1.png";
+import imgB2 from "../src/assets/image/l1/png/feature-brand-1.png";
+import imgB3 from "../src/assets/image/svg/harvard.svg";
+import imgB4 from "../src/assets/image/svg/mit.svg";
 
-import imgT1 from "../assets/image/l3/png/team-member-1.png";
-import imgT2 from "../assets/image/l3/png/team-member-2.png";
-import imgT3 from "../assets/image/l3/png/team-member-3.png";
-import imgT4 from "../assets/image/l3/png/team-member-4.png";
-import imgT5 from "../assets/image/l3/png/team-member-5.png";
+import imgT1 from "../src/assets/image/l3/png/team-member-1.png";
+import imgT2 from "../src/assets/image/l3/png/team-member-2.png";
+import imgT3 from "../src/assets/image/l3/png/team-member-3.png";
+import imgT4 from "../src/assets/image/l3/png/team-member-4.png";
+import imgT5 from "../src/assets/image/l3/png/team-member-5.png";
 
-import imgL from "../assets/image/svg/icon-loaction-pin-black.svg";
+import imgL from "../src/assets/image/svg/icon-loaction-pin-black.svg";
 
 const CandidateProfile = () => {
   return (

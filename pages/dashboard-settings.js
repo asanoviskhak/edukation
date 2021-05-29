@@ -1,7 +1,7 @@
 import React from "react";
 
-import PageWrapper from "../components/PageWrapper";
-import { Select } from "../components/Core";
+import PageWrapper from "../src/components/PageWrapper";
+import { Select } from "../src/components/Core";
 
 const defaultTypes = [
   { value: "b2b", label: "B2B" },

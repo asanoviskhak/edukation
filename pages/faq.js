@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Collapse } from "react-bootstrap";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
+import PageWrapper from "../src/components/PageWrapper";
 
 const Faq = () => {
   const [openItem, setOpenItem] = useState(1);

@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
-import imgLogo from "../assets/image/logo-main-black.png";
-import imgError from "../assets/image/svg/404.svg";
+import PageWrapper from "../src/components/PageWrapper";
+import imgLogo from "../src/assets/image/logo-main-black.png";
+import imgError from "../src/assets/image/svg/404.svg";
 
 const Contact = () => {
   return (

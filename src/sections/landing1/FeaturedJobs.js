@@ -7,19 +7,21 @@ import imgF4 from "../../assets/image/l1/png/feature-brand-4.png";
 import imgF5 from "../../assets/image/l1/png/feature-brand-5.png";
 import imgF6 from "../../assets/image/l1/png/feature-brand-6.png";
 import {getContent} from '../../../lib/api'
+
+
 const axios = require('axios');
 
 
-  
-export default function FeaturedJobs ({content, name}) {
+function FeaturedJobs ({content}){
   const [data, setData] = useState({})
   // const NOTION_API_SECRET="secret_Fm2IDh3zQXNfd1cTAQBW24VXpIuIcfEnqtF5S7TSH9I"
   // const NOTION_DATABASE = "78b6c8d24ebe439bbb5a32d8815693ca"
+  
   useEffect(() => {
     if (content){
-      console.log(content)
+      console.log("Data: " ,content)
     }
-  }, [])
+  }, [content])
 
   return (
     <>
@@ -31,7 +33,7 @@ export default function FeaturedJobs ({content, name}) {
             {/* <!-- Section Title --> */}
             <div className="col-12 col-xl-6 col-lg-6">
               <div className="text-center text-lg-left mb-13 mb-lg-0">
-                <h2 className="font-size-9 font-weight-bold">{name}</h2>
+                <h2 className="font-size-9 font-weight-bold">Hey!</h2>
               </div>
             </div>
             {/* <!-- Section Button --> */}
@@ -48,13 +50,12 @@ export default function FeaturedJobs ({content, name}) {
           </div>
           {/* <!-- End Section Top --> */}
           <div className="row justify-content-center">
-          {content ? content.map(uni => (
+          {/* {appProps? appProps.map(uni => (
                 <div
                 className="col-12 col-lg-4 col-md-6 px-xxl-7"
                 data-aos="fade-up"
                 data-aos-duration="800"
               >
-                {/* <!-- Start Feature One --> */}
                 
                 <div key={uni.id} className="bg-white px-8 pt-9 pb-7 rounded-4 mb-9 feature-cardOne-adjustments">
                   <div className="d-block mb-7">
@@ -120,10 +121,10 @@ export default function FeaturedJobs ({content, name}) {
                     </Link>
                   </div>
                 </div>
-                {/* <!-- End Feature One --> */}
+               
               </div>
             ))
-            :
+            : */}
             <div
                 className="col-12 col-lg-4 col-md-6 px-xxl-7"
                 data-aos="fade-up"
@@ -199,7 +200,7 @@ export default function FeaturedJobs ({content, name}) {
               </div>
             
             
-            }
+            {/* } */}
           </div>
         </div>
       </div>
@@ -207,19 +208,13 @@ export default function FeaturedJobs ({content, name}) {
   );
 };
 
-export async function getStaticProps(context) {
+async function getStaticProps(context) {
   const content = await getContent();
-  if (!content) {
-    return {
-      notFound: true,
-    }
-  }
-  return {
-    props: {
-      content,
-      name:"Hello World!"
-      // database: process.env.NOTION_DATABASE
-    },
-    revalidate: 3600
+  console.warn("From Feat:", content)
+  return { 
+    props: {content},
+    revalidate: 10,
   };
 }
+
+export {FeaturedJobs as default, getStaticProps}
