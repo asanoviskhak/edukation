@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useContext} from "react";
 import Link from "next/link";
 import imgF1 from "../../assets/image/l1/png/feature-brand-1.png";
 import imgF2 from "../../assets/image/l1/png/feature-brand-2.png";
@@ -6,22 +6,16 @@ import imgF3 from "../../assets/image/l1/png/feature-brand-3.png";
 import imgF4 from "../../assets/image/l1/png/feature-brand-4.png";
 import imgF5 from "../../assets/image/l1/png/feature-brand-5.png";
 import imgF6 from "../../assets/image/l1/png/feature-brand-6.png";
-import {getContent} from '../../../lib/api'
+import GlobalContext from "../../context/GlobalContext";
 
 
-const axios = require('axios');
-
-
-function FeaturedJobs ({content}){
+function FeaturedJobs (){
+  const gContext = useContext(GlobalContext);
   const [data, setData] = useState({})
   // const NOTION_API_SECRET="secret_Fm2IDh3zQXNfd1cTAQBW24VXpIuIcfEnqtF5S7TSH9I"
   // const NOTION_DATABASE = "78b6c8d24ebe439bbb5a32d8815693ca"
   
-  useEffect(() => {
-    if (content){
-      console.log("Data: " ,content)
-    }
-  }, [content])
+  
 
   return (
     <>
@@ -208,13 +202,5 @@ function FeaturedJobs ({content}){
   );
 };
 
-async function getStaticProps(context) {
-  const content = await getContent();
-  console.warn("From Feat:", content)
-  return { 
-    props: {content},
-    revalidate: 10,
-  };
-}
 
-export {FeaturedJobs as default, getStaticProps}
+export default FeaturedJobs

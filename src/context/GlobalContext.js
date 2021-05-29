@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-
+import React, { useState, useEffect } from "react";
+import {getContent} from '../../lib/api'
 const GlobalContext = React.createContext();
 
 const GlobalProvider = ({ children }) => {
@@ -10,6 +10,7 @@ const GlobalProvider = ({ children }) => {
   const [signUpModalVisible, setSignUpModalVisible] = useState(false);
   const [videoModalVisible, setVideoModalVisible] = useState(false);
   const [visibleOffCanvas, setVisibleOffCanvas] = useState(false);
+  
   const [header, setHeader] = useState({
     theme: "light",
     bgClass: "default",
@@ -24,6 +25,17 @@ const GlobalProvider = ({ children }) => {
     theme: "dark",
     style: "style1", //style1, style2
   });
+
+  const [notionDB, setNotionDB] = useState({})
+
+  useEffect(() => {
+    async function retrieveData(){
+      const content = await getContent();
+      console.log(content)
+      if (content) setNotionDB(content)
+    }
+    retrieveData()
+  }, [])
 
   const toggleTheme = () => {
     setThemeDark(!themeDark);
