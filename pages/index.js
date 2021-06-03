@@ -7,9 +7,9 @@ import Categories from "../src/sections/landing1/Categories";
 import Content1 from "../src/sections/landing1/Content1";
 import FeaturedJobs from "../src/sections/landing1/FeaturedJobs";
 import Content2 from "../src/sections/landing1/Content2";
+import { getContent }  from '../lib/api'
 
-
-const IndexPage = () => {
+export default function IndexPage (props){
   return (
     <>
       <PageWrapper
@@ -22,10 +22,21 @@ const IndexPage = () => {
         {/* <Brands /> */}
         <Categories />
         <Content1 />
-        <FeaturedJobs />
+        <FeaturedJobs content={props.content}/>
         <Content2 />
       </PageWrapper>
     </>
   );
 };
-export default IndexPage;
+
+export async function getStaticProps() {
+  const content = await getContent();
+  
+  return {
+    props: {
+      content,
+    },
+    revalidate: 3600
+  };
+}
+
