@@ -166,7 +166,22 @@ const Layout = ({ children, pageContext }) => {
             <meta property="og:type" content="website" />
             <meta property="og:description" content="Мы как добрая бортпроводница в самолете, появляемся в нужный момент, заботимся, предлагая лучшие услуги :)" />
             <meta property="og:locale" content="ru_RU" />
-
+            <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
 
             <title>Edukation | Official website</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
