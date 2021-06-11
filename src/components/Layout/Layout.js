@@ -161,11 +161,12 @@ const Layout = ({ children, pageContext }) => {
           <GlobalStyle />
           <Helmet>
             <meta property="og:title" content="Edukation | Помогаем с поступлением в Корею" />
-            <meta property="og:url" content="https://edukation.vercel.app" />
+            <meta property="og:url" content="https://edukation.pro" />
             <meta property="og:image" content="https://i.ibb.co/hKgNqrF/og.jpg"/>
             <meta property="og:type" content="website" />
             <meta property="og:description" content="Мы как добрая бортпроводница в самолете, появляемся в нужный момент, заботимся, предлагая лучшие услуги :)" />
             <meta property="og:locale" content="ru_RU" />
+            
             <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -183,7 +184,8 @@ const Layout = ({ children, pageContext }) => {
             }}
           />
 
-            <title>Edukation | Official website</title>
+            <title>Edukation | Оффициальная страница</title>
+            <meta name="description" content="Даём бесплатные консультации по обучению в Корее. Так что пиши, не стесняйся )"/>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Helmet>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
