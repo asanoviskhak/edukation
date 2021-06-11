@@ -162,7 +162,7 @@ const Layout = ({ children, pageContext }) => {
           <Helmet>
             <meta property="og:title" content="Edukation | Помогаем с поступлением в Корею" />
             <meta property="og:url" content="https://edukation.vercel.app" />
-            <meta property="og:image" content="../src/assets/og.jpg"/>
+            <meta property="og:image" content="https://i.ibb.co/hKgNqrF/og.jpg"/>
             <meta property="og:type" content="website" />
             <meta property="og:description" content="Мы как добрая бортпроводница в самолете, появляемся в нужный момент, заботимся, предлагая лучшие услуги :)" />
             <meta property="og:locale" content="ru_RU" />
