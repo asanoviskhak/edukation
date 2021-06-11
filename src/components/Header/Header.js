@@ -315,7 +315,7 @@ const Header = () => {
             )}
 
             {gContext.header.button === "account" && (
-              <div className="header-btns header-btn-devider ml-auto pr-2 ml-lg-6 d-none d-xs-flex">
+              <div className="header-btns ml-auto pr-2 ml-lg-6 d-none d-xs-flex">
                 {/* <a
                   className="btn btn-transparent text-uppercase font-size-3 heading-default-color focus-reset"
                   href="/#"

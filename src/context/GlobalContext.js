@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import {getContent} from '../../lib/api'
 const GlobalContext = React.createContext();
 
 const GlobalProvider = ({ children }) => {
@@ -26,16 +25,7 @@ const GlobalProvider = ({ children }) => {
     style: "style1", //style1, style2
   });
 
-  const [notionDB, setNotionDB] = useState({})
-
-  useEffect(() => {
-    async function retrieveData(){
-      const content = await getContent();
-      console.log(content)
-      if (content) setNotionDB(content)
-    }
-    retrieveData()
-  }, [])
+  
 
   const toggleTheme = () => {
     setThemeDark(!themeDark);
