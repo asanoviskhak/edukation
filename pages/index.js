@@ -8,7 +8,8 @@ import Content1 from "../src/sections/landing1/Content1";
 import FeaturedJobs from "../src/sections/landing1/FeaturedJobs";
 import Content2 from "../src/sections/landing1/Content2";
 import { getContent }  from '../lib/api'
-
+import Progress from "../src/sections/landing1/Progress";
+import Team from '../src/sections/landing1/Team'
 export default function IndexPage (props){
   return (
     <>
@@ -22,7 +23,9 @@ export default function IndexPage (props){
         {/* <Brands /> */}
         <Categories />
         <Content1 />
+        <Progress/>
         <FeaturedJobs content={props.content}/>
+        <Team/>
         <Content2 />
       </PageWrapper>
     </>
