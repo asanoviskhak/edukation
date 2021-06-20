@@ -26,7 +26,7 @@ export default function IndexPage (props){
         <Progress/>
         <FeaturedJobs content={props.content}/>
         <Team/>
-        <Content2 />
+        {/* <Content2 /> */}
       </PageWrapper>
     </>
   );

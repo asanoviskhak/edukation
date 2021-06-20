@@ -31,17 +31,17 @@ export default function FeaturedJobs(props) {
             {/* <!-- Section Title --> */}
             <div className="col-12 col-xl-6 col-lg-6">
               <div className="text-center text-lg-left mb-13 mb-lg-0">
-                <h2 className="font-size-9 font-weight-bold">Hey!</h2>
+                <h2 className="font-size-9 font-weight-bold">Про универы</h2>
               </div>
             </div>
             {/* <!-- Section Button --> */}
             <div className="col-12 col-xl-6 col-lg-6">
               <div className="text-center text-lg-right">
-                <Link href="/#">
-                  <a className="btn btn-outline-white text-uppercase">
-                    Воспользуйся ими <i>😀</i>
+                
+                  <a href="https://www.notion.so/3fa897944e04465fb07816b794428d54?v=c1e4ed9d485747cba8c23d026fbe42cb" target="_blank" className="btn btn-outline-white text-uppercase">
+                    Увидеть все! <span>👀</span>
                   </a>
-                </Link>
+                
               </div>
             </div>
             {/* <!-- Section Button End --> */}
@@ -57,16 +57,16 @@ export default function FeaturedJobs(props) {
                   data-aos-duration="800"
                 >
                   <div className="bg-white px-8 pt-9 pb-7 rounded-4 mb-9 feature-cardOne-adjustments">
-                    <div className="d-block mb-7">
+                    {/* <div className="d-block mb-7">
                       <Link href="/#">
                         <a>
                           <img src={imgF1} alt="" />
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                     <Link href="/#">
                       <a className="font-size-3 d-block mb-0 text-gray">
-                        Google INC
+                        {uni.properties.Type.select.name}
                       </a>
                     </Link>
                     <h2 className="mt-n4">
@@ -85,42 +85,40 @@ export default function FeaturedJobs(props) {
                         <Link href="/#">
                           <a className="bg-regent-opacity-15 text-denim font-size-3 rounded-3">
                             <i className="icon icon-pin-3 mr-2 font-weight-bold"></i>{" "}
-                            Berlyn
+                            {uni.properties.Location.rich_text[0].plain_text}
                           </a>
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/#">
                           <a className="bg-regent-opacity-15 text-orange font-size-3 rounded-3">
                             <i className="fa fa-briefcase mr-2 font-weight-bold"></i>{" "}
                             Full-time
                           </a>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/#">
                           <a className="bg-regent-opacity-15 text-eastern font-size-3 rounded-3">
                             <i className="fa fa-dollar-sign mr-2 font-weight-bold"></i>{" "}
-                            80K-90K
+                            {uni.properties.Tuition.rich_text[0].plain_text}
                           </a>
                         </Link>
                       </li>
                     </ul>
                     <p className="mb-7 font-size-4 text-gray">
-                      We are looking for Enrollment Advisors who are looking to
-                      take 30-35 appointments per week. All leads are
-                      pre-scheduled.
+                    {uni.properties.Description.rich_text[0].plain_text}
                     </p>
                     <div className="card-btn-group">
                       <Link href="/#">
                         <a className="btn btn-green text-uppercase btn-medium rounded-3">
-                          Apply Now
+                          Consult
                         </a>
                       </Link>
                       <Link href="/#">
                         <a className="btn btn-outline-mercury text-black-2 text-uppercase btn-medium rounded-3">
                           <i className="icon icon-bookmark-2 font-weight-bold mr-4 font-size-4"></i>{" "}
-                          Save it
+                          See more
                         </a>
                       </Link>
                     </div>

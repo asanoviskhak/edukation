@@ -26,7 +26,7 @@ export default function Team() {
               <figure className="border-radius-5px">
                 <div className="team-member-image">
                   <img alt="team-1" src="https://picsum.photos/500/530" />
-                  <div className="team-overlay bg-transparent-gradient-light-purple-light-orange border-radius-5px" />
+                  <div className="team-overlay bg-transparent-gradient-shamrock-green-light-orange border-radius-5px" />
                 </div>
                 <figcaption className="d-flex flex-column padding-60px-lr padding-50px-tb md-padding-30px-all">
                   <div className="social-icon">
@@ -53,10 +53,10 @@ export default function Team() {
                     </a>
                   </div>
                   <span className="team-title d-block padding-one-bottom alt-font text-extra-medium text-white font-weight-500 mt-auto">
-                    Alexander Harvard
+                    Dosbol Kasymov
                   </span>
                   <span className="team-sub-title d-block text-medium text-white-transparent alt-font">
-                    Operations officer
+                    CEO & Co-Founder
                   </span>
                 </figcaption>
               </figure>
@@ -70,7 +70,7 @@ export default function Team() {
               <figure className="border-radius-5px">
                 <div className="team-member-image">
                   <img alt="team-2" src="https://picsum.photos/500/530" />
-                  <div className="team-overlay bg-transparent-gradient-light-purple-light-orange border-radius-5px" />
+                  <div className="team-overlay bg-transparent-gradient-shamrock-green-light-orange border-radius-5px" />
                 </div>
                 <figcaption className="d-flex flex-column padding-60px-lr padding-50px-tb md-padding-30px-all">
                   <div className="social-icon">
@@ -97,10 +97,10 @@ export default function Team() {
                     </a>
                   </div>
                   <span className="team-title d-block padding-one-bottom alt-font text-extra-medium text-white font-weight-500 mt-auto">
-                    Bryan Jonhson
+                    Eleonora Kyrbieva
                   </span>
                   <span className="team-sub-title d-block text-medium text-white-transparent alt-font">
-                    Graphic designer
+                    COO & Co-Founder
                   </span>
                 </figcaption>
               </figure>
@@ -114,7 +114,7 @@ export default function Team() {
               <figure className="border-radius-5px">
                 <div className="team-member-image">
                   <img alt="team-3" src="https://picsum.photos/500/530" />
-                  <div className="team-overlay bg-transparent-gradient-light-purple-light-orange border-radius-5px" />
+                  <div className="team-overlay bg-transparent-gradient-shamrock-green-light-orange border-radius-5px" />
                 </div>
                 <figcaption className="d-flex flex-column padding-60px-lr padding-50px-tb md-padding-30px-all">
                   <div className="social-icon">
@@ -141,10 +141,10 @@ export default function Team() {
                     </a>
                   </div>
                   <span className="team-title d-block padding-one-bottom alt-font text-extra-medium text-white font-weight-500 mt-auto">
-                    Jeremy Dupont
+                    Iskhak Asanov
                   </span>
                   <span className="team-sub-title d-block text-medium text-white-transparent alt-font">
-                    Web developer
+                    CTO & Co-Founder
                   </span>
                 </figcaption>
               </figure>

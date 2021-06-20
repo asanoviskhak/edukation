@@ -10,7 +10,7 @@ export const menuItems = [
   },
   
   {
-    name: "pages",
+    name: "about",
     label: "О нас",
     // items: [
     //   {
